@@ -1,2 +1,2 @@
 # SAE302
-Application connectée
+Application connectée.
