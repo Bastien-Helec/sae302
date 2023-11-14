@@ -1,0 +1,9 @@
+# Utiliser Debian 12.2 comme image de base
+FROM debian:12.2
+
+# Mise à jour du système et installation des packages nécessaires
+RUN echo "coucou" && \
+    apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y \
+
